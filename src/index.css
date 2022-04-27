@@ -1,0 +1,78 @@
+
+   html, body, .App{
+	background-color: #006064;
+}
+
+   #display{
+   	padding-top: 80px;
+   }
+
+   .container{
+   	background-color: #aa00ff;
+   	margin: 40px;
+   	padding: 20px;
+   	height: 95vh;
+   	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+
+     @media(min-width:500px){
+     	.container{
+     		margin:auto;
+     		width: 70vw;
+     		height: 60vh;
+     	}
+
+     	.drum-pad{
+     		width: 200px;
+     		height: 200px;
+     	}
+
+   
+       .text{
+       	font-size: 40px;
+       	text-align: center;
+       	font-weight: 10px;
+       }
+
+     	.card{
+     		margin-top: 30px;
+     		height: 250px;
+     	}
+
+      h2{
+      	background-color: #006064;
+      }
+       
+     	p{
+     		padding: 20px;
+     		width:80%;
+     	}
+     }
+
+      h2{
+      	text-align: center;
+      }
+
+
+
+   .card{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   	
+   }
+
+   
+    p{
+    	font-weight: bold;
+    	font-size: 30px;
+    	margin: auto;
+    	padding: 20px;
+    	word-spacing: 10px;
+    	width: 90%;
+    	background-color: rgba(30, 43, 43, 0.1);
+    	left: 30px;
+    	color: red;
+    	height: 90px;
+    	text-align: center;
+    	
+    }
+ 
+ 
